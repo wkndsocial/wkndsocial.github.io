@@ -24,6 +24,40 @@ img {
   width: 100%;
 }
 
+/* Temp bootstrap styling */
+.row > div{
+  margin-bottom: 15px;
+}
+.header{
+  min-height: 90px;
+}
+.footer{
+  min-height: 60px;
+}
+.header, .footer{
+  background: #2f2f2f;
+}
+.content{
+  background: #b4bac0;
+  min-height: 300px;
+}
+.sidebar-top{
+  min-height: 140px;
+  background: #dbdfe7;
+}
+.sidebar-bottom{
+  min-height: 145px;
+  background: #7e8aa0;
+  margin-bottom: -15px;
+}
+.section{
+  min-height: 150px;
+  background: #dbdfe5;
+}
+.section.bg-alt{
+  background: #b4bac0;
+}
+
 /* Bootstrap Override */
 
 /* .navbar-default .navbar-nav > .active > a,
