@@ -1,97 +1,146 @@
 <!-- To Do
-Fix mobile response in header
+
 -->
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- tells the browser to interpret all human languages -->
-    <meta charset="utf-8">
     <title>Passion Project 1</title>
-    <!-- Enables touch zooming and proper mobile rendering -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Tells internet explorer to display the webpage in the highest mode available -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Stylesheets -->
     <link href="resources/css/reset.css" type="text/css" rel="stylesheet" />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
     <!-- Optional Bootstrap theme -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
     <link href="resources/css/style.css" type="text/css" rel="stylesheet" />
-
   </head>
-      <!-- Navigation -->
-        <nav class="navbar navbar-inverse navbar-static-top">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header col-sm-5">
-                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand">Brand_Logo</a>
-            </div>
 
-            <div id="navbarCollapse" class="collapse navbar-collapse">
-              <form class="navbar-form navbar-left col-sm-5">
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Search">
-                  <span class="input-group-btn">
-                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-                  </span>
-                </div>
-              </form>
+  <!-- Navigation Section-->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header col-sm-5">
+          <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">Brand_Logo</a>
+      </div>
 
-              <ul class="nav navbar-nav navbar-right ">
-                <li><a href="#"><span class="glyphicon glyphicon-plus"></span>  Add Event</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span>  Join Free</a></li>
-              </ul>
-            </div>
+      <div id="navbarCollapse" class="collapse navbar-collapse">
+        <form class="navbar-form navbar-left col-sm-5">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <span class="input-group-btn">
+              <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+            </span>
           </div>
-        </nav>
-      <!-- </div> -->
+        </form>
 
-      <div class="row">
-        <div class="col-sm-8">
-          <div class="content"></div>
-        </div>
-        <div class="col-sm-4">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="sidebar-top"></div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="sidebar-bottom"></div>
-            </div>
-          </div>
+        <ul class="nav navbar-nav navbar-right ">
+          <li><a href="#"><span class="glyphicon glyphicon-plus"></span>  Add Event</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span>  Join Free</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Body Content -->
+  <body>
+    <div class="row">
+      <div class="col-sm-5">
+        <div class="how-works">
+          <h3>How it Works:</h3>
+          <ol>
+            <li>
+              Register your email and zipcode.
+            </li>
+            <li>
+              Answer 3 questions about your interests.
+            </li>
+            <li>
+              Never miss a unique local event again!
+            </li>
+          </ol>
+          <p>
+            WKNDsocial knows everything that's happening, every night, in every city. We'll message you ahead of
+            time to suggest nearby unique events, <strong>that are <em>free or under $20</em>.</strong>
+          </p>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-sm-6 col-md-3">
-          <div class="section"></div>
-        </div>
-        <div class="col-sm-6 col-md-3">
-          <div class="section bg-alt"></div>
-        </div>
-        <div class="col-sm-12 col-md-3">
-          <div class="section"></div>
-        </div>
-        <div class="col-sm-12 col-md-3">
-          <div class="section"></div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="footer"></div>
+      <div class="col-sm-7">
+        <div class="hero">
+          <img src="./resources/images/hero-img.jpg" />
         </div>
       </div>
     </div>
 
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <div class="event">
+          <img src="./resources/images/city-festival.jpg" />
+          <span>This is where we'll tease the event a little bit to incite the crowds!</span>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="event bg-alt">
+          <img src="./resources/images/concert-festival.jpg" />
+          <span>This is where we'll tease the event a little bit to incite the crowds!</span>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="event">
+          <img src="./resources/images/couples.png" />
+          <span>This is where we'll tease the event a little bit to incite the crowds!</span>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="event">
+          <img src="./resources/images/fitness-festival.jpg" />
+          <span>This is where we'll tease the event a little bit to incite the crowds!</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <div class="event">
+          <img src="./resources/images/outdoor-festival.jpg" />
+          <span>This is where we'll tease the event a little bit to incite the crowds!</span>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="event">
+          <img src="./resources/images/fitness_convention.gif" />
+          <span>This is where we'll tease the event a little bit to incite the crowds!</span>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="event bg-alt">
+          <img src="./resources/images/tent-festival.jpg" />
+          <span>This is where we'll tease the event a little bit to incite the crowds!</span>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="event">
+          <img src="./resources/images/watergun-festival.jpg" />
+          <span>This is where we'll tease the event a little bit to incite the crowds!</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="footer"></div>
+      </div>
+    </div>
+
+    <!-- Scripts located at the bottom of the <body> for increased web performance -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
